@@ -121,17 +121,85 @@ header .button:hover a {
   width: 45%;
   max-width: 660px;
   background: url(backgroundsite.jpg) no-repeat fixed 50% 50%;
-  clip-path: polygon(0 15%, 100% 18%, 96% 93%, 3% 95%);
+  clip-path: polygon(0 4%, 100% 9%, 98% 97%, 2% 99%);
 }
 #autodidacte {
   padding: 20px 0 0 5%;
 }
-#ocr {
+#gart {
   padding: 50px 0 0 10%;
+}
+#ocr {
+  padding: 70px 0 0 15%;
 }
 #formations h4 {
   font-weight: bold;
   letter-spacing: 0.08em;
   padding-bottom: 10px;
   color: #283655;
+}
+.counter {
+  display: flex;
+  text-align: center;
+}
+.data {
+  border: 1px solid #283655;
+  width: 170px;
+  margin: 0 4%;
+  box-shadow: 0 0 8px #5e5e5e;
+  padding: 5px 20px;
+}
+.counter-value {
+  font-size: 2em;
+}
+.data-span {
+  font-size: 1.8em;
+}
+
+/******************Parcours************************/
+#parcours {
+  max-width: 800px;
+  margin: 640px auto 180px auto;
+  padding: 40px 30px 100px 30px;
+  background: url(./backgroundp.jpg) fixed, 50% 50%;
+  background-size: cover;
+  border-radius: 8px;
+  box-shadow: -1px -1px 8px #5e5e5e;
+}
+#parcours h3 {
+  font-size: 2.5em;
+  padding-bottom: 30px;
+}
+#parcours h4 {
+  font-size: 1.6em;
+  color: #1555d4;
+  margin-left: 20px;
+}
+#parcours h5 {
+  font-size: 1em;
+  font-style: italic;
+  color: #5e5e5e;
+  margin-left: 20px;
+}
+#parcours p {
+  line-height: 1.9em;
+}
+.line {
+  border-top: 3px solid;
+  border-image: linear-gradient(
+    to right,
+    transparent,
+    #1555d4,
+    #a79dd6,
+    transparent
+  );
+  border-image-slice: 1;
+}
+.line:nth-child(odd) {
+  border-right: 3px solid;
+  padding-left: 0;
+}
+.line:nth-child(even) {
+  border-left: 3px solid;
+  padding-left: 0;
 }
