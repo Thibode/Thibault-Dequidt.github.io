@@ -2,10 +2,10 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  color: #283655 !important;
+  color: #133622 !important;
   background-color: #f7faff !important;
   font-family: sans-serif;
-  background: url(./image-icon-pdf/background.jpg);
+  background: url(./image-icon-pdf/backgroundv2.jpg);
   max-width: 100%;
   height: 500vh;
 }
@@ -14,7 +14,7 @@ h3 {
   font-family: sans-serif;
   letter-spacing: 0.2em;
   text-transform: uppercase;
-  text-shadow: -1px -1px -1px #283655;
+  text-shadow: -1px -1px -1px #133622;
 }
 li {
   list-style-type: none;
@@ -34,7 +34,8 @@ li {
 header {
   text-align: center;
   height: 100vh;
-  background: url(./image-icon-pdf/backgroundsite.jpg) no-repeat fixed 50% 50%;
+  background: url(./image-icon-pdf/backsite.jpg) no-repeat 50% 50%;
+  box-shadow: 5px 5px 8px #111;
   background-size: cover;
 }
 h1 {
@@ -59,14 +60,14 @@ h2 {
   margin-top: 20px;
 }
 .infos {
-  border: 1px solid #283655;
+  border: 1px solid #133622;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   padding: 20px 0;
 }
 .photo {
-  border: 1px solid #283655;
+  border: 1px solid #133622;
   position: relative;
 }
 .photo img {
@@ -90,7 +91,7 @@ header .button a {
   width: 300px;
 }
 header .button:hover a {
-  background: #b3aca7;
+  background: #5eb172;
   color: #e2dedb;
   transition: all 0.3s ease-in-out;
   text-decoration: none;
@@ -103,7 +104,7 @@ header .button:hover a {
   height: 620px;
   width: 47%;
   max-width: 640px;
-  background: url(./image-icon-pdf/backgroundsite.jpg) no-repeat fixed 50% 50%;
+  background: url(./image-icon-pdf/backsite.jpg) no-repeat 50% 50%;
   clip-path: polygon(0 6%, 96% 0, 90% 96%, 0 90%);
 }
 #competences .bar {
@@ -120,7 +121,7 @@ header .button:hover a {
   padding: 110px 0 60px 50px;
   width: 45%;
   max-width: 660px;
-  background: url(./image-icon-pdf/backgroundsite.jpg) no-repeat fixed 50% 50%;
+  background: url(./image-icon-pdf/backsite.jpg) no-repeat 50% 50%;
   clip-path: polygon(0 4%, 100% 9%, 98% 97%, 2% 99%);
 }
 #autodidacte {
@@ -136,14 +137,14 @@ header .button:hover a {
   font-weight: bold;
   letter-spacing: 0.08em;
   padding-bottom: 10px;
-  color: #283655;
+  color: #133622;
 }
 .counter {
   display: flex;
   text-align: center;
 }
 .data {
-  border: 1px solid #283655;
+  border: 1px solid #133622;
   width: 170px;
   margin: 0 4%;
   box-shadow: 0 0 8px #5e5e5e;
@@ -161,10 +162,10 @@ header .button:hover a {
   max-width: 800px;
   margin: 640px auto 180px auto;
   padding: 40px 30px 100px 30px;
-  background: url(./image-icon-pdf/backgroundp.jpg) fixed, 50% 50%;
+  background: url(./image-icon-pdf/backp2.jpg) no-repeat 50% 50%;
   background-size: cover;
-  border-radius: 8px;
-  box-shadow: -1px -1px 8px #5e5e5e;
+  border-radius: 5px;
+  box-shadow: 4px 4px 8px #1d1f1e;
 }
 #parcours h3 {
   font-size: 2.5em;
@@ -172,13 +173,13 @@ header .button:hover a {
 }
 #parcours h4 {
   font-size: 1.6em;
-  color: #1555d4;
+  color: #06a046;
   margin-left: 20px;
 }
 #parcours h5 {
   font-size: 1em;
   font-style: italic;
-  color: #5e5e5e;
+  color: rgb(94, 94, 94);
   margin-left: 20px;
 }
 #parcours p {
@@ -189,8 +190,8 @@ header .button:hover a {
   border-image: linear-gradient(
     to right,
     transparent,
-    #1555d4,
-    #a79dd6,
+    #06a046,
+    #96d4a4,
     transparent
   );
   border-image-slice: 1;
@@ -202,4 +203,26 @@ header .button:hover a {
 .line:nth-child(even) {
   border-left: 3px solid;
   padding-left: 0;
+}
+
+/*********************HOBBIES&COMP********************/
+#other-skills {
+  margin-top: 80px;
+  padding: 50px 100px 100px 100px;
+  width: 100%;
+  background: url(./image-icon-pdf/backsite.jpg);
+  clip-path: polygon(0 11%, 100% 0, 100% 100%, 0 86%);
+}
+#other-skills h3 {
+  transform: rotate(-3.2deg);
+  font-size: 3em;
+  padding-top: 30px;
+  text-shadow: -1px 1px 0px #96d4a4;
+  color: #133622;
+}
+.cloud {
+  text-align: center;
+  padding: 50px 0;
+  font-size: 2em;
+  text-transform: uppercase;
 }
