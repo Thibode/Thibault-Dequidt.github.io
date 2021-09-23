@@ -5,7 +5,7 @@ body {
   color: #133622 !important;
   background-color: #f7faff !important;
   font-family: sans-serif;
-  background: url(./image-icon-pdf/backgroundv2.jpg);
+  background: url(./image-icon-pdf/backgroundv2.webp);
   max-width: 100%;
   height: 500vh;
 }
@@ -34,7 +34,7 @@ li {
 header {
   text-align: center;
   height: 100vh;
-  background: url(./image-icon-pdf/backsite.jpg) no-repeat 50% 50%;
+  background: url(./image-icon-pdf/backsite.webp) no-repeat 50% 50%;
   box-shadow: 5px 5px 8px #111;
   background-size: cover;
 }
@@ -104,7 +104,7 @@ header .button:hover a {
   height: 620px;
   width: 47%;
   max-width: 640px;
-  background: url(./image-icon-pdf/backsite.jpg) no-repeat 50% 50%;
+  background: url(./image-icon-pdf/backsite.webp) no-repeat 50% 50%;
   clip-path: polygon(0 6%, 96% 0, 90% 96%, 0 90%);
 }
 #competences .bar {
@@ -121,7 +121,7 @@ header .button:hover a {
   padding: 110px 0 60px 50px;
   width: 45%;
   max-width: 660px;
-  background: url(./image-icon-pdf/backsite.jpg) no-repeat 50% 50%;
+  background: url(./image-icon-pdf/backsite.webp) no-repeat 50% 50%;
   clip-path: polygon(0 4%, 100% 9%, 98% 97%, 2% 99%);
 }
 #autodidacte {
@@ -162,7 +162,7 @@ header .button:hover a {
   max-width: 800px;
   margin: 640px auto 180px auto;
   padding: 40px 30px 100px 30px;
-  background: url(./image-icon-pdf/backp2.jpg) no-repeat 50% 50%;
+  background: url(./image-icon-pdf/backp2.webp) no-repeat 50% 50%;
   background-size: cover;
   border-radius: 5px;
   box-shadow: 4px 4px 8px #1d1f1e;
@@ -212,7 +212,7 @@ header .button:hover a {
   margin-top: 80px;
   padding: 50px 100px 100px 100px;
   width: 100%;
-  background: url(./image-icon-pdf/backsite.jpg);
+  background: url(./image-icon-pdf/backsite.webp);
   clip-path: polygon(0 11%, 100% 0, 100% 100%, 0 100%);
 }
 #other-skills h3 {
@@ -231,7 +231,7 @@ header .button:hover a {
 
 /*****************FOOTER***************/
 footer {
-  background: url(./image-icon-pdf/backp2.jpg) 50% 0% no-repeat;
+  background: url(./image-icon-pdf/backp2.webp) 50% 0% no-repeat;
   background-size: cover;
   text-align: center;
   padding: 160px 50px 5 50px;
@@ -278,6 +278,10 @@ input {
   border: 1px solid #5eb172;
   border-bottom: none;
 }
+input:hover {
+  background: #96d4a4;
+  transition: all 0.3s ease-in-out;
+}
 textarea {
   width: 470px;
   height: 110px;
@@ -288,6 +292,10 @@ textarea {
   color: #133622;
   border: 1px solid #96d4a4;
   resize: none;
+}
+textarea:hover {
+  background: #96d4a4;
+  transition: all 0.3s ease-in-out;
 }
 .form-button {
   background: transparent;
