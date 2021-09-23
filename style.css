@@ -170,20 +170,22 @@ header .button:hover a {
 #parcours h3 {
   font-size: 2.5em;
   padding-bottom: 30px;
+  color: #929292;
 }
 #parcours h4 {
   font-size: 1.6em;
-  color: #06a046;
+  color: #1fad36;
   margin-left: 20px;
 }
 #parcours h5 {
   font-size: 1em;
   font-style: italic;
-  color: rgb(94, 94, 94);
+  color: #555555;
   margin-left: 20px;
 }
 #parcours p {
   line-height: 1.9em;
+  color: #4b4b4b;
 }
 .line {
   border-top: 3px solid;
@@ -237,6 +239,7 @@ footer {
 footer h3 {
   padding: 0 0 60px 0;
   font-size: 2.5em;
+  color: #929292;
 }
 .footer-icons {
   margin: 0 auto;
@@ -286,7 +289,17 @@ textarea {
   border: 1px solid #96d4a4;
   resize: none;
 }
-
+.form-button {
+  background: transparent;
+  border: 1px solid #5eb172;
+  padding: 20px 75px;
+  margin: 14px 0 -20px 0;
+}
+.form-button:hover {
+  color: #133622;
+  background: #96d4a4;
+  transition: all 0.3s ease-in-out;
+}
 .arrow {
   margin: -20 auto;
   padding-top: 15px;
@@ -317,4 +330,82 @@ textarea {
 footer p {
   font-size: 0.9em;
   letter-spacing: 0.2em;
+}
+/* ************************Media Queries***************** */
+@media screen and (max-width: 900px) {
+  .infos h5,
+  .typed {
+    font-size: 0.9em;
+  }
+  #competences {
+    margin-left: 1%;
+  }
+  #formations {
+    margin-right: 1%;
+  }
+  .network {
+    font-size: 2em;
+    padding: 10px 20px;
+  }
+}
+@media screen and (max-width: 770px) {
+  .navbar {
+    display: none !important;
+  }
+  .fixed-top {
+    position: unset !important;
+  }
+  h1,
+  h2 {
+    font-size: 2em;
+  }
+  #competences {
+    width: 80%;
+    margin-left: 10%;
+  }
+  #formations {
+    margin: 210px 0 0 10%;
+    width: 80%;
+    float: none;
+    display: block;
+  }
+  .counter-value {
+    font-size: 1em;
+  }
+  .data-span {
+    font-size: 0.8em;
+  }
+  #parcours {
+    margin-top: -50px;
+  }
+  #other-skills h3,
+  footer h3 {
+    font-size: 2em;
+  }
+  .cloud {
+    font-size: 1em;
+  }
+  .network {
+    font-size: 1.4em;
+    padding: 14px 20px;
+  }
+  input,
+  textarea {
+    width: 300px;
+  }
+}
+@media screen and (max-width: 520px) {
+  h1 {
+    padding-top: 20px;
+  }
+  h3 {
+    font-size: 1em !important;
+  }
+  #gart,
+  #ocr {
+    padding: 50px 0 0 0;
+  }
+  #other-skils {
+    display: none;
+  }
 }
